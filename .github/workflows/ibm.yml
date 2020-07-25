@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '44 2 * * ?'
+    - cron: '05 23 * * ?'
 
 jobs:
   ibm-cloud-restart:
